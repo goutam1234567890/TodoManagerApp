@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.auth-app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Todo Manager custom styles */
+.app-container {
+  margin: 20px;
+  font-family: sans-serif;
+}
+.header-title{
+  font-size: 40px;
+  color: #333;
+}
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.logout-btn {
+  float: right;
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+form {
+  margin-bottom: 30px;
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.auth-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#auth-email {
+  padding: 8px;
+  width: 30%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+#auth-password {
+  padding: 8px;
+  width: 30%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+#new-todo {
+  width: 70%;
+  height: 30px;
+}
+
+.add-btn {
+  padding: 8px;
+  margin-left: 8px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 60px;
+}
+
+.auth-btn{
+  /* background: none; */
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: rgb(91, 91, 210);
+  font-size: 15px;
+}
+
+.auth-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.switch-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+li.todo-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-checkbox {
+  margin: 0px 8px 0px 0px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.todo-title {
+  flex: 1;
+}
+
+.todo-title.completed {
+  text-decoration: line-through;
+}
+
+.edit-input {
+  flex: 1;
+  margin-right: 8px;
+  padding: 4px;
+}
+
+.save-btn {
+  margin-right: 4px;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+}
+.cancel-btn{
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
