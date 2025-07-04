@@ -1,0 +1,22 @@
+### Get all todos
+GET http://localhost:5000/api/todos
+
+### Create a new todo
+POST http://localhost:5000/api/todos
+Content-Type: application/json
+
+{
+  "title": "Learn MERN stack"
+}
+
+### Update a todo (replace :id with a real todo ID)
+PUT http://localhost:5000/api/todos/:id
+Content-Type: application/json
+
+{
+  "title": "Updated Todo Title",
+  "completed": true
+}
+
+### Delete a todo (replace :id with a real todo ID)
+DELETE http://localhost:5000/api/todos/:id

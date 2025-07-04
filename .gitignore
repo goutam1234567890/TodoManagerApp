@@ -1,0 +1,33 @@
+# Node
+node_modules/
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+frontend/build/
+
+# Test coverage
+coverage/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# OS
+*.swp
+
+# React default
+frontend/src/setupTests.js
+frontend/src/reportWebVitals.js
+frontend/src/logo.svg
+
+# GitHub
+.github/
